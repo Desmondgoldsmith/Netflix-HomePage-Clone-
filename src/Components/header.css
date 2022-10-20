@@ -1,6 +1,6 @@
 .MainHeader{
     object-fit: contain;
-    height: 600px;
+    height: 650px;
     border: 0.5px solid black;
 }
 
@@ -29,8 +29,13 @@
     width: 90px;
     height: 35px;
     margin: 30px;
-
-    
+    cursor: pointer;
+    opacity: 7;
+    transition: transform 100ms ;
+}
+.header > button:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
 }
 
 /* .header{
@@ -45,15 +50,16 @@
     rgb(0, 0, 0));
     margin-top: -30px;
 }
-
+*/
 .dim-low{
-    height: 15rem;
+    height: 11rem;
     background-image: linear-gradient(
     transparent,
-    rgba(0, 0, 0, 0.61),
+    rgba(0, 0, 0, 0.8),
     rgb(0, 0, 0));
-    margin-top: 15px;
-} */
+    margin-top: 50px;
+    width: 100vw;
+} 
 .some_text_{
     color: white;
     text-align: center;
@@ -72,7 +78,46 @@
     margin-top: 10px;
 }
 .fourth--{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     margin-top: 15px;
+}
+
+.text_field{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_field > input{
+    height: 55px;
+    width: 30em;
+    font-size: 18px;
+}
+.text_field > button{
+    height: 55px;
+    width: 10em;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: -6px;
+    border: #e50914;
+    cursor: pointer;
+    opacity: 1;
+}
+..text_field > button:hover{
+    opacity: 7;
+}
+.but-start > .MuiSvgIcon-root{
+    font-size: 15px;
+}
+
+.line{
+    width: 100vw;
+    background-color: #3b3b3b;
+    border: #3b3b3b;
+    height: 10px;
 }

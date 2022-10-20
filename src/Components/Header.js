@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Header() {
   return (
@@ -20,6 +21,11 @@ function Header() {
       <h3 className='third--'>Watch anywhere. Cancel anytime.</h3>
       <p className='fourth--'>Ready to watch? Enter your email to create or restart your membership.</p>
       </div>
+      <div className='text_field'>
+        <input placeholder='  Email address' required></input> <button className='but_start'>Get Started <ArrowForwardIosIcon /></button>
+      </div>
+      <div className='dim-low'></div>
+      <div className='line'></div>
       </header>
   )
 }
