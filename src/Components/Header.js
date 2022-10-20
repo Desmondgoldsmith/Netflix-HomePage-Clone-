@@ -1,15 +1,19 @@
-import React from 'react'
+import React from 'react';
 import './header.css';
 
 function Header() {
   return (
-    <div className='header'>
-      <div className='logo'>
-        <img src='https://i.ibb.co/r5krrdz/logo.png' alt='Netflix Logo'></img>
+    <header className='MainHeader' style={{
+        backgroundPosition : "center center",
+        backgroundImage : `url("https://i.ibb.co/vXqDmnh/background.jpg")`,
+        backgroundSize: "cover",
+    }}>
+      <div className = 'header'>
+        <img src = "https://i.ibb.co/r5krrdz/logo.png" alt='Netflix Logo'></img>
+        <button>Sign In</button>
       </div>
-      <button className='bt-1'>Sign In</button>
-
-    </div>
+      <h1>Mad man</h1>
+    </header>
   )
 }
 
