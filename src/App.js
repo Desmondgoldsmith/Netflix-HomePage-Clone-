@@ -3,7 +3,7 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       {/* {enjoy tv section} */}
       {/* Download and watch show section */}

@@ -1,0 +1,17 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.logo > img{
+    width: 155px;
+}
+.header > button{
+    background-color: #e50914;
+    color: #fff;
+    font-weight: lighter;
+    border: #e50914;
+    padding: 10px;
+    padding-top: 9px;
+    border-radius: 6px;
+    width: 90px;
+}
