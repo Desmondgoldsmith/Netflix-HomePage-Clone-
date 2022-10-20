@@ -7,6 +7,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
     
 }
 
@@ -64,4 +65,14 @@
 }
 .second--{
     font-size: 50px;
+}
+.third--{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.fourth--{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 15px;
 }

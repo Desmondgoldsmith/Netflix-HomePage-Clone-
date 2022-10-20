@@ -6,8 +6,8 @@ function Header() {
     <header className='MainHeader' style={{
         backgroundPosition : "center center",
         // backgroundImage : `url("https://i.ibb.co/vXqDmnh/background.jpg")`,
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url("https://i.ibb.co/vXqDmnh/background.jpg")`,
+        backgroundImage: `linear-gradient(rgba(2.9, 0.5, 0.5, 0.5),
+                       rgba(0.8, 0.5, 0, 0.5)), url("https://i.ibb.co/vXqDmnh/background.jpg")`,
         backgroundSize: "cover",
     }}>
       <div className = 'header'>
