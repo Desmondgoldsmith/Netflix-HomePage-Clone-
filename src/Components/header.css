@@ -13,6 +13,7 @@
 .header >img{
     object-fit: contain;
     width: 120px;
+    margin: 30px;
 
 }
 
@@ -26,9 +27,20 @@
     border-radius: 5px;
     width: 90px;
     height: 38px;
+    margin: 30px;
+
     
 }
 
 .header{
     margin: 30px;
+}
+
+.dim {
+    height: 20.4rem;
+    background-image: linear-gradient(3deg,
+    transparent,
+    rgba(0, 0, 0, 0.61),
+    rgb(0, 0, 0));
+    margin-top: -30px;
 }

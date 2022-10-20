@@ -8,9 +8,11 @@ function Header() {
         backgroundImage : `url("https://i.ibb.co/vXqDmnh/background.jpg")`,
         backgroundSize: "cover",
     }}>
+    <div className='dim'>
       <div className = 'header'>
         <img src = "https://i.ibb.co/r5krrdz/logo.png" alt='Netflix Logo'></img>
         <button>Sign In</button>
+      </div>
       </div>
       <h1>Mad man</h1>
     </header>
