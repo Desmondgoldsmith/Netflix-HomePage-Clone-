@@ -1,0 +1,38 @@
+
+.line{
+    width: 100vw;
+    background-color: #303030;
+    border: #303030;
+    height: 10px;
+}
+
+.details{
+ display: flex;
+ margin-top: 40px ;
+ margin-bottom: 40px ;
+ justify-content: space-between;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+
+}
+
+.detail >p{
+    font-size: 28px;
+    font-weight: lighter;
+}
+.second--{
+    margin-top: 15px;
+}
+
+.title > h1{
+    font-size: 50px;
+    margin-right: 60px;
+}
+
+.details > .side_image{
+  width: 500px;
+  object-fit: contain;
+  margin-right: 60px;
+
+}
