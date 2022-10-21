@@ -111,6 +111,7 @@
     border: #e50914;
     cursor: pointer;
     opacity: 1;
+    
 }
 .text_field > button:hover{
     opacity: 7;

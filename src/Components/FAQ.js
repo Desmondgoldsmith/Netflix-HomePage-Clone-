@@ -7,6 +7,8 @@ class FAQ extends Component {
         divcontent:false,
         divcontent1:false,
         divcontent2:false,
+        divcontent3:false,
+        divcontent4:false,
     }
 
     render(){
@@ -19,9 +21,17 @@ class FAQ extends Component {
     var Handlechange2 = e =>{
         this.setState({divcontent2:!this.state.divcontent2});
     }
+    var Handlechange3 = e =>{
+        this.setState({divcontent3:!this.state.divcontent3});
+    }
+    var Handlechange4 = e =>{
+        this.setState({divcontent4:!this.state.divcontent4});
+    }
     const x = this.state.divcontent;
     const y = this.state.divcontent1;
     const z = this.state.divcontent2;
+    const a = this.state.divcontent3;
+    const b = this.state.divcontent4;
   return (
     <div className='FAQ'>
        <div className='FAQs' onClick={() => this.handleClick()}>
@@ -55,6 +65,22 @@ class FAQ extends Component {
             Android, or Windows 10 app. Use downloads to watch while
             you're on the go and without an internet connection. Take
             Netflix with you anywhere. 
+            </h4>)}
+            </div>
+            <div className='Faq_container'>
+            <h3 onClick={Handlechange3}>How do I cancel? {a?<CloseIcon/>:<AddIcon/>}</h3>
+            {a &&(<h4 className='details'>Netflix is flexible. There are no pesky contracts and no 
+            commitments. You can easily cancel your account online in two 
+            clicks. There are no cancellation fees – start or stop your
+             account anytime. 
+            </h4>)}
+            </div>
+            <div className='Faq_container'>
+            <h3 onClick={Handlechange4}>What can I watch on Netflix? {b?<CloseIcon/>:<AddIcon/>}</h3>
+            {b &&(<h4 className='details'>Netflix has an extensive library of feature films, documentaries,
+             TV shows, anime, award-winning Netflix originals, and more.
+              Watch as much as you want, anytime you want.
+             account anytime. 
             </h4>)}
             </div>
        </div>
