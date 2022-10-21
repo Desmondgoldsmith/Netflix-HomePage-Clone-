@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Download from './Components/Download';
 import FAQ from './Components/FAQ';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Profiles from './Components/Profiles';
 import TvSection from './Components/TvSection';
@@ -22,6 +23,7 @@ function App() {
       {/* FAQs */}
       <FAQ />
       {/* footer */}
+      <Footer />
     </div>
   );
 }

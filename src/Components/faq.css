@@ -67,3 +67,38 @@
     display: block;
     opacity: 6;
  } */
+
+ .text_field{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.text_field > input{
+    height: 55px;
+    width: 28em;
+    font-size: 18px;
+}
+.text_field > button{
+    height: 55px;
+    width: 9.5em;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: -4px;
+    border: #e50914;
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.last{
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+}

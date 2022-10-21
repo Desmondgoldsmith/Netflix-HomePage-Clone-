@@ -2,6 +2,8 @@ import React,{ Component } from 'react'
 import './faq.css';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 class FAQ extends Component {
     state = {
         divcontent:false,

@@ -1,0 +1,49 @@
+.Footer_details{
+    margin-left: 200px;
+    color: white;
+    display: flex;
+    
+}
+
+.Footer>h5{
+    color: #fff;
+    margin-left: 230px;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+
+.row_1{
+   display: block;
+   list-style-type:none;
+   padding: 20px;
+}
+
+.row_1 >li{
+    padding: 10px;
+    
+}
+
+.row_1 >li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+.row_2{
+   display: block;
+   list-style-type:none;
+   padding: 20px;
+   margin-left: 40px;
+}
+
+.row_2 >li{
+    padding: 10px;
+    
+}
+
+.row_2 >li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 0.5;
+}
