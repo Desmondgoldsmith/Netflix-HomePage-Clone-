@@ -33,4 +33,14 @@
     padding-left: 30px;
     font-size: 26px;
     font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .Faq_container > h3 > .MuiSvgIcon-root{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 520px;
+
+   
  }
