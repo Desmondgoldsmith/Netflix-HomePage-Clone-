@@ -1,4 +1,4 @@
-.FAQ{
+.FAQs{
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -16,5 +16,21 @@
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 30px;
-
+  
+ 
 }
+
+.Faq_container{
+    height: 80px;
+    background-color: #303030;
+    width: 800px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;  
+    margin-left: 330px;  
+}
+.Faq_container >h3{
+    padding-left: 30px;
+    font-size: 26px;
+    font-weight: lighter;
+ }
