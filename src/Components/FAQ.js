@@ -9,6 +9,7 @@ class FAQ extends Component {
         divcontent2:false,
         divcontent3:false,
         divcontent4:false,
+        divcontent5:false,
     }
 
     render(){
@@ -27,11 +28,15 @@ class FAQ extends Component {
     var Handlechange4 = e =>{
         this.setState({divcontent4:!this.state.divcontent4});
     }
+    var Handlechange5 = e =>{
+        this.setState({divcontent5:!this.state.divcontent5});
+    }
     const x = this.state.divcontent;
     const y = this.state.divcontent1;
     const z = this.state.divcontent2;
     const a = this.state.divcontent3;
     const b = this.state.divcontent4;
+    const c = this.state.divcontent5;
   return (
     <div className='FAQ'>
        <div className='FAQs' onClick={() => this.handleClick()}>
@@ -83,6 +88,22 @@ class FAQ extends Component {
              account anytime. 
             </h4>)}
             </div>
+            <div className='Faq_container'>
+            <h3 onClick={Handlechange5}>Is Netflix good for kids?{c?<CloseIcon/>:<AddIcon/>}</h3>
+            {c &&(<h4 className='details'>The Netflix Kids experience is included in your membership to 
+            give parents control while kids enjoy family-friendly TV shows
+             and movies in their own space.<br/><br/>
+             Kids profiles come with PIN-protected parental controls that let 
+             you restrict the maturity rating of content kids can watch and 
+             block specific titles you don’t want kids to see.
+            </h4>)}
+            </div>
+            <div className='last'>
+                <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+            </div>
+            <div className='text_field'>
+        <input placeholder='  Email address' required></input> <button className='but_start'>Get Started <ArrowForwardIosIcon /></button>
+      </div>
        </div>
         <div className='line'></div>
     </div>
