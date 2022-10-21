@@ -1,5 +1,6 @@
 import './App.css';
 import Download from './Components/Download';
+import FAQ from './Components/FAQ';
 import Header from './Components/Header';
 import Profiles from './Components/Profiles';
 import TvSection from './Components/TvSection';
@@ -18,6 +19,7 @@ function App() {
       {/* create profiles for kids section */}
       <Profiles />
       {/* FAQs */}
+      <FAQ />
       {/* footer */}
     </div>
   );
