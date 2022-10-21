@@ -1,0 +1,12 @@
+.FAQ{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100vw;
+    background-color: #303030;
+    border: #303030;
+    height: 10px;
+}

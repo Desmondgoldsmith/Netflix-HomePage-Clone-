@@ -4,7 +4,10 @@ import './faq.css';
 function FAQ() {
   return (
     <div className='FAQ'>
-        <h1 className='Question'>Frequently Asked Questions</h1>
+       <div className='FAQs'>
+            <h1 className='Question'>Frequently Asked Questions</h1>
+       </div>
+        <div className='line'></div>
     </div>
   )
 }
