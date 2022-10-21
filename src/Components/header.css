@@ -69,8 +69,12 @@
     font-size: 55px;
     font-weight: bolder;
 }
-.second--{
+
+.some_text_ > h2{
     font-size: 50px;
+    font-weight: bolder;
+
+
 }
 .third--{
     font-size: 25px;
