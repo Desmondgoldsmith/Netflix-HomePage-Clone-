@@ -25,7 +25,7 @@ function Header() {
         <input placeholder='  Email address' required></input> <button className='but_start'>Get Started <ArrowForwardIosIcon /></button>
       </div>
       <div className='dim-low'></div>
-      <div className='line'></div>
+     
       </header>
   )
 }

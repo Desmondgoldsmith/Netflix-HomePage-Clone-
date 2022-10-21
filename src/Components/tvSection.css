@@ -1,0 +1,31 @@
+
+.line{
+    width: 100vw;
+    background-color: #3b3b3b;
+    border: #3b3b3b;
+    height: 10px;
+}
+
+.details{
+ display: flex;
+ margin-top: 60px ;
+ justify-content: space-between;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+
+}
+
+.second--{
+    font-size: 28px;
+    font-weight: lighter;
+
+}
+
+.title > h1{
+    font-size: 60px;
+}
+
+.details > .side_image{
+  width: 500px;
+}
