@@ -1,3 +1,25 @@
+# Clone this repo 
+### git clone https://github.com/Desmondgoldsmith/Netflix-HomePage-Clone-.git
+
+# Important Packages
+### npm install @mui/material @emotion/react @emotion/styled
+### npm install @mui/icons-material
+
+# Images & Video 
+![Screenshot 2022-10-22 at 04 04 43](https://user-images.githubusercontent.com/62439177/197318477-14c08935-b50d-44b8-8100-c7caed7b366b.png)
+![Uploading Screenshot 2022-10-22 at 04.05.11.png…]()
+Uploading Screen Recording 2022-10-22 at 04.03.01.mov…
+
+
+![Uploading Screenshot 2022-10-22 at 04.05.19.png…]()
+
+![Uploading Screenshot 2022-10-22 at 04.05.28.png…]()
+
+![Uploading Screenshot 2022-10-22 at 04.05.37.png…]()
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
