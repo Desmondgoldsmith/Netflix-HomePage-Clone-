@@ -1,5 +1,5 @@
 @media only screen and (max-width: 950px) {
-    .title > h1{
+    .title > h3{
         font-size: 40px !important;
         justify-content: center;
         align-items: center;
@@ -20,10 +20,25 @@
         object-fit: contain !important;
       }
 
-      .title > h1{
+      .title > h3{
         font-size: 40px !important;
         margin-right: 50px !important;
     }
+    }
+
+    @media only screen and (max-width: 414px) {
+       
+        .details > .side_image{
+            width: 400px !important;
+            object-fit: contain;
+          }
+    
+          .title > h3{
+            font-size: 28px !important;
+            margin-left: 26.5px !important;
+          
+        }
+
     }
 .line{
     width: 100vw;

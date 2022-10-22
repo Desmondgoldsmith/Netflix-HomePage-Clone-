@@ -2,6 +2,8 @@
     object-fit: contain;
     height: 650px;
     border: 0.5px solid black;
+    overflow-y: hidden !important; 
+
 }
 
 
@@ -56,11 +58,21 @@
     
   }
 
+  @media only screen and (max-width: 375px) {
+    .Faq_container >h3{
+         
+        margin-left: 28px !important;
+        width: 330px !important;
+ }
+}
+
+ 
+
 .header{
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-    
+
 }
 
 .header >img{

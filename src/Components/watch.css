@@ -19,6 +19,28 @@
     }
     
 }  
+
+@media only screen and (max-width: 414px) {
+    .Watch > .title{
+        font-size: 30px !important;
+        margin-right: 10px !important;
+ 
+    } 
+
+    .Watch{
+
+        padding: 20px !important;
+        color: #fff;
+    
+    }
+
+   .Watch > .second--{
+                font-size: 18px !important;
+
+    }
+   
+}
+
 .line{
     width: 100vw;
     background-color: #303030;

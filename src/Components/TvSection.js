@@ -7,7 +7,7 @@ function TvSection() {
      <div className='line'></div>
      <div className='details'>
      <div className='title first--'>
-     <h1>Enjoy on your TV.</h1>
+     <h1 className='main'>Enjoy on your TV.</h1>
     <p className='second--'>Watch on Smart TVs, Playstation, Xbox,</p>
     <p className='second--'> Chromecast, Apple TV, Blu-ray players, and </p>
     <p className='second--'> more.</p>

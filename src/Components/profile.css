@@ -29,6 +29,18 @@
     }
     }
 
+    @media only screen and (max-width: 414px) {
+        .title > .prof{
+            font-size: 30px !important;
+            margin-left: 20px !important;
+        }
+        .title > .second--{
+            font-size: 18px !important;
+
+        }
+    }
+
+
 .line{
     width: 100vw;
     background-color: #303030;

@@ -37,6 +37,21 @@
     }
     }
 
+    @media only screen and (max-width: 414px) {
+       
+        .details > .side_image{
+            width: 400px !important;
+            object-fit: contain;
+          }
+    
+          .title > .main{
+            font-size: 40px !important;
+            margin-left: 26.5px !important;
+          
+        }
+    
+    }
+
 
 .line{
     width: 100vw;

@@ -1,17 +1,11 @@
 @media only screen and (max-width: 950px) {
     .Footer_details{
         margin-left: 40px !important;
-        color: white;
-        display: flex;
-        font-size: 12px !important;
         
     }
     .Footer>h5{
-        color: #fff;
         margin-left: 75px !important;
-        margin-top: 80px;
-        opacity: 0.5;
-        font-size: 18px;
+        
     }
     .row_2{
         display: block;
@@ -32,6 +26,35 @@
         margin-left: 15px !important;
      }
 }
+
+@media only screen and (max-width: 414px) {
+    .Footer_details{
+        margin-left: 5px !important;
+        font-size: 12px !important;
+    }
+    .Footer>h5{
+       
+        margin-left: 10px !important;
+        
+    }
+    .row_2{
+       
+        padding: 2px !important;
+        margin-left: 2px !important;
+     }
+    .row_3{
+       
+        padding: 2px !important;
+        margin-left: 2px !important;
+     }
+    .row_4{
+       
+        padding: 2px !important;
+        margin-left: 2px !important;
+     }
+}
+
+
 .Footer_details{
     margin-left: 200px;
     color: white;
