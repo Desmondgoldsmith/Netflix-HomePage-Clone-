@@ -4,6 +4,26 @@
     border: 0.5px solid black;
 }
 
+
+@media only screen and (max-width: 414px) {
+   
+    .first--{
+        font-size: 39px !important;
+        font-weight: bolder !important ;
+    }
+    .some_text_ > .second--{
+        font-size: 36px !important;
+        font-weight: bolder !important ;
+    
+    }
+
+    .text_field > .but_start{
+       
+        width: 150px !important;
+        
+    }
+    }
+
 /* media queries */
 @media only screen and (max-width: 950px) {
     .text_field > input{
