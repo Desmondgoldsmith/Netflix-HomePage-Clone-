@@ -1,3 +1,43 @@
+@media only screen and (max-width: 600px) {
+    .FAQs >h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .Faq_container >h3{
+    padding-left: 10px !important;
+    font-size: 20px !important;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+    height: 60px !important;
+    background-color: #333333;
+    width: 450px !important;
+    margin-bottom: 30px;
+    /* display: flex; */
+    align-items: center;  
+    margin-left: 100px !important;
+    }
+
+    .Faq_container > .details{
+        height: 200px !important;
+        background-color: #333333;
+        width: 450px !important;
+        margin-bottom: 30px;
+        margin-top: -20px;
+        align-items: center;  
+        margin-left: 100px !important;
+        font-size: 15px !important;
+        font-weight: lighter;
+        padding: 26px !important;
+
+        
+        /* display: none; */
+     }
+}
 .FAQs{
     text-align: center;
     justify-content: center;

@@ -1,3 +1,24 @@
+@media only screen and (max-width: 600px) {
+    .Watch > h1{
+        font-size: 40px !important;
+       
+        margin-right: 10px !important;
+
+        
+    }
+    .Watch{
+        /* width: 100% !important; */
+        text-align: center !important;
+        padding-left: 40px !important;
+
+    }
+
+    .Watch >p{
+        font-size: 20px !important;
+        font-weight: lighter !important;
+    }
+    
+}  
 .line{
     width: 100vw;
     background-color: #303030;
@@ -17,7 +38,7 @@
 .Watch{
     padding-top: 40px;
     padding-bottom: 35px;
-    padding-left: 180px;
+    padding-left: 70px;
     color: #fff;
 
 }

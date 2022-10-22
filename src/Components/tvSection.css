@@ -1,4 +1,29 @@
+@media only screen and (max-width: 600px) {
+.title > h1{
+    font-size: 40px !important;
+    
+}
+.details > .side_image{
 
+ width: 400px!important;
+ object-fit: contain !important;
+
+}
+
+.details{
+    display: block!important;
+    align-items: center!important;
+    justify-content: center!important;
+    text-align: center!important;
+}
+
+.second--{
+    font-size: 18px !important;
+    font-weight: lighter !important;
+    /* margin-left:-100px ; */
+
+}
+}
 .line{
     width: 100vw;
     background-color: #303030;

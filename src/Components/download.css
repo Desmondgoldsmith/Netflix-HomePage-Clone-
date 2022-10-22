@@ -1,4 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .title > h1{
+        font-size: 40px !important;
+        justify-content: center;
+        align-items: center;
 
+        
+    }
+    .details > .side_image{
+    
+     width: 400px!important;
+     object-fit: contain !important;
+    
+    }
+}  
 .line{
     width: 100vw;
     background-color: #303030;

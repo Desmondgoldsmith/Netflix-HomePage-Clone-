@@ -10,6 +10,7 @@
     margin-left: 230px;
     margin-top: 80px;
     opacity: 0.5;
+    font-size: 18px;
 }
 
 .row_1{
@@ -21,6 +22,9 @@
 .row_1 >li{
     padding: 10px;
     
+}
+.row_1 >.netflix_gh{
+  margin-top: 30px;
 }
 
 .row_1 >li > a{
@@ -42,6 +46,42 @@
 }
 
 .row_2 >li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+.row_3{
+   display: block;
+   list-style-type:none;
+   padding: 20px;
+   margin-left: 40px;
+}
+
+.row_3 >li{
+    padding: 10px;
+    
+}
+
+.row_3 >li > a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+.row_4{
+   display: block;
+   list-style-type:none;
+   padding: 20px;
+   margin-left: 40px;
+}
+
+.row_4 >li{
+    padding: 10px;
+    
+}
+
+.row_4 >li > a{
     color: #fff;
     text-decoration: none;
     font-weight: lighter;

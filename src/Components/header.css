@@ -4,6 +4,34 @@
     border: 0.5px solid black;
 }
 
+/* media queries */
+@media only screen and (max-width: 600px) {
+    .text_field > input{
+        width: 20em!important;
+        line-break: strict !important;
+        margin-right: 5px !important;
+       
+    }
+    .text_field > button{
+        width: 8.5em !important;
+        font-size: 15px !important ;
+        text-align: center;
+        align-items: center;
+
+    }
+    .text_field{
+        width: 100%;
+        padding: 30px;
+    }
+    .text_field > button > .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+
+    .some_text_ >h2{
+        margin-top: -12px !important;
+    }
+  }
+
 .header{
     display: flex;
     justify-content: space-between;

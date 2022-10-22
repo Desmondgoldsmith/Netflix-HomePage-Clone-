@@ -22,7 +22,7 @@ function Header() {
       <p className='fourth--'>Ready to watch? Enter your email to create or restart your membership.</p>
       </div>
       <div className='text_field'>
-        <input placeholder='  Email address' required></input> <button className='but_start'>Get Started <ArrowForwardIosIcon /></button>
+        <input className='text_' placeholder='  Email address' required></input> <button className='but_start'>Get Started <ArrowForwardIosIcon /></button>
       </div>
       <div className='dim-low'></div>
      
