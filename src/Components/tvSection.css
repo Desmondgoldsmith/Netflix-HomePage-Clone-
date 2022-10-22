@@ -24,6 +24,20 @@
 
 }
 }
+
+@media only screen and (max-width: 1140px) {
+    .details > .side_image{
+        width: 400px !important;
+        object-fit: contain;
+      }
+
+      .title > h1{
+        font-size: 40px !important;
+        margin-right: 50px !important;
+    }
+    }
+
+
 .line{
     width: 100vw;
     background-color: #303030;

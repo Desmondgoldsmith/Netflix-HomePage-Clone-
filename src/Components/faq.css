@@ -50,6 +50,21 @@
 
     }
 }
+
+@media only screen and (max-width: 1140px) {
+    .Faq_container >h3{
+         
+        margin-left: 200px !important;
+ }
+
+ .Faq_container > .details{
+    
+    margin-left: 200px !important;
+    
+ }
+     
+    }
+
 .FAQs{
     text-align: center;
     justify-content: center;
