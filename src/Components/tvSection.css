@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
 .title > h1{
     font-size: 40px !important;
     
@@ -51,6 +51,9 @@
 .title > h1{
     font-size: 50px;
     margin-right: 60px;
+}
+.title{
+    display: block;
 }
 
 .details > .side_image{

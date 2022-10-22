@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
     .FAQs >h1{
         font-size: 40px;
         text-align: center;
@@ -37,6 +37,18 @@
         
         /* display: none; */
      }
+     .FAQs{
+       
+        color: #fff;
+    }
+    .Faq_container{
+        display: block;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-self: center !important;
+
+    }
 }
 .FAQs{
     text-align: center;

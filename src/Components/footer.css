@@ -1,3 +1,37 @@
+@media only screen and (max-width: 950px) {
+    .Footer_details{
+        margin-left: 40px !important;
+        color: white;
+        display: flex;
+        font-size: 12px !important;
+        
+    }
+    .Footer>h5{
+        color: #fff;
+        margin-left: 75px !important;
+        margin-top: 80px;
+        opacity: 0.5;
+        font-size: 18px;
+    }
+    .row_2{
+        display: block;
+        list-style-type:none;
+        padding: 20px;
+        margin-left: 15px !important;
+     }
+    .row_3{
+        display: block;
+        list-style-type:none;
+        padding: 20px;
+        margin-left: 15px !important;
+     }
+    .row_4{
+        display: block;
+        list-style-type:none;
+        padding: 20px;
+        margin-left: 15px !important;
+     }
+}
 .Footer_details{
     margin-left: 200px;
     color: white;
