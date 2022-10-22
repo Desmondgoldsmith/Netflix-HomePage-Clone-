@@ -44,7 +44,7 @@ class FAQ extends Component {
        <div className='FAQs' onClick={() => this.handleClick()}>
             <h1 className='Question'>Frequently Asked Questions</h1>
             <div className='Faq_container'>
-            <h3 onClick={Handlechange}>What is Netflix? {x?<CloseIcon/>:<AddIcon/>} </h3>
+            <h3 className = 'W_A' onClick={Handlechange}>What is Netflix? {x?<CloseIcon/>:<AddIcon/>} </h3>
             {x && (<h4 className='details'>Netflix is a streaming service that offers a wide variety 
             of award-winning TV shows, movies, anime, documentaries, and 
             more on thousands of internet-connected devices.<br/><br/>

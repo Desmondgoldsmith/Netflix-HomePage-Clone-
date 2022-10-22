@@ -19,7 +19,7 @@
     margin-bottom: 30px;
     /* display: flex; */
     align-items: center;  
-    margin-left: 100px !important;
+    margin-left: 230px !important;
     }
 
     .Faq_container > .details{
@@ -91,7 +91,10 @@
     /* display: flex; */
     align-items: center;  
     margin-left: 330px;
+    
+    /* justify-content: center; */
  }
+ 
 
  .Faq_container > h3 > .MuiSvgIcon-root{
     font-size: 40px;
