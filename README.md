@@ -7,17 +7,8 @@
 
 # Images & Video 
 ![Screenshot 2022-10-22 at 04 04 43](https://user-images.githubusercontent.com/62439177/197318477-14c08935-b50d-44b8-8100-c7caed7b366b.png)
-![Uploading Screenshot 2022-10-22 at 04.05.11.png…]()
 
-![Uploading Screenshot 2022-10-22 at 04.05.19.png…]()
-
-![Uploading Screenshot 2022-10-22 at 04.05.28.png…]()
-
-![Uploading Screenshot 2022-10-22 at 04.05.37.png…]()
-
-
-
-Uploading Screen Recording 2022-10-22 at 04.03.01.mov…
+https://user-images.githubusercontent.com/62439177/198938591-751a991a-5b01-4c2e-a394-285c8d4d9d3b.mov
 
 
 
